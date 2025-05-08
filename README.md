@@ -47,7 +47,7 @@ Manage and explore curated map pools used in ranked play:
 - `/mappools show <name>` – Display the maps within a specific pool
 - `/mappool-suggest` – Suggest a new map pool for potential ranked use
 
-<img src="src/utils/images/example/mappool-suggestion.png" width="300">
+<img src="src/utils/images/example/mappool-suggestion.png" width="350">
 
 ---
 
