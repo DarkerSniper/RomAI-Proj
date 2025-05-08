@@ -88,8 +88,8 @@ module.exports = {
             console.log(`Players in this lobby:\n${playerArray}`);
 
             if (gameMode == '1v1') {
-                osuUser1.replace(/ /g, "_");
-                osuUser2.replace(/ /g, "_");
+                osuUser1 = osuUser1.replace(/ /g, "_");
+                osuUser2 = osuUser2.replace(/ /g, "_");
             }
 
             // High ELO matches logic & Match limitation
@@ -990,7 +990,7 @@ module.exports = {
                         break;
                     case states.Ended:
                         if (message == ".tb" && lobby.playing == false) {
-                            if (await getMapsNum() == (scoreToWin * 2 - 1)) break;
+                            if (await getMapsNum() == (bestOf)) break;
 
                             if (username == playerArray[0] || username == playerArray[mode]) {
                                 if (username == playerArray[0]) tbStatus[0] = true;
@@ -1302,7 +1302,7 @@ module.exports = {
                         let tournamentStage = tournament.stage == 'Playoffs' ? `Playoffs` : `${tournament.stage} (Round ${tournament.round + 1})`;
                         await lobby.channel.sendMessage(`${tournament.name} - ${tournamentStage}`);
                     } 
-                    await lobby.channel.sendMessage(`${team1} | ${match.score[0]} - ${match.score[1]} | ${team2} // BO${scoreToWin * 2 - 1}`);
+                    await lobby.channel.sendMessage(`${team1} | ${match.score[0]} - ${match.score[1]} | ${team2} // BO${bestOf}`);
                     await lobby.channel.sendMessage(`Available maps: ${currentPool}`);
                     await lobby.channel.sendMessage(`Waiting for ${player}'s Pick...`);
                     await lobby.startTimer(90);
@@ -1313,7 +1313,7 @@ module.exports = {
                     await lobby.channel.sendMessage(`${team1} | ${match.score[0]} - ${match.score[1]} | ${team2}`);
                     await lobby.channel.sendMessage(`${winner} IS THE WINNER!`);
                     await lobby.channel.sendMessage(`The match has concluded. Thanks for playing!`);
-                    if (await getMapsNum() != (scoreToWin * 2 - 1)) await lobby.channel.sendMessage(`Want to play the Tie Breaker map for fun? type: '.tb'`);
+                    if (await getMapsNum() != (bestOf)) await lobby.channel.sendMessage(`Want to play the Tie Breaker map for fun? type: '.tb'`);
                     await lobby.startTimer(45);
                 }
             }
