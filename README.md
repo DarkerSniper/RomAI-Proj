@@ -99,7 +99,7 @@ $\text{PoolELO} = \left(\text{avgStars} \cdot 0.7 + \text{nm1Stars} \cdot 0.3\ri
 
 - [Node.js](https://nodejs.org/)
 - [discord.js](https://discord.js.org/)
-- [osu.js](https://github.com/TheEquinor/osu.js)
+- [osu.js](https://github.com/L-Mario564/osu.js)
 - [@kionell/osu-pp-calculator](https://www.npmjs.com/package/@kionell/osu-pp-calculator)
 - [MongoDB](https://www.mongodb.com/)
 - [osu!world](https://osuworld.octo.moe/)
