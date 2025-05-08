@@ -1,6 +1,4 @@
-# RomAI ![Discord](https://img.shields.io/discord/1245368064992870471?label=Support%20Server&logo=discord&style=for-the-badge) ![Status](https://img.shields.io/badge/Project-Active-brightgreen?style=for-the-badge) ![Built with ❤️ by Rom](https://img.shields.io/badge/Built%20with-%E2%9D%A4%EF%B8%8F%20by%20Rom-blueviolet?style=for-the-badge)
-
-<!-- Image here: Project Logo -->
+# <img src="src/utils/images/example/RomAI Logo.png" width="75"> RomAI ![Discord](https://img.shields.io/discord/1245368064992870471?label=Support%20Server&logo=discord&style=for-the-badge) ![Status](https://img.shields.io/badge/Project-Active-brightgreen?style=for-the-badge) ![Built with ❤️ by Rom](https://img.shields.io/badge/Built%20with-%E2%9D%A4%EF%B8%8F%20by%20Rom-blueviolet?style=for-the-badge)
 
 RomAI is a feature-rich **osu! / Discord bot** that combines classic stat tracking with competitive ranked modes, card collecting, leveling systems, and matchmaking — all powered by a skill-based ELO system.
 
@@ -49,7 +47,7 @@ Manage and explore curated map pools used in ranked play:
 - `/mappools show <name>` – Display the maps within a specific pool
 - `/mappool-suggest` – Suggest a new map pool for potential ranked use
 
-<!-- Image here: Example of a map pool being shown -->
+<img src="src/utils/images/example/pool-suggestion.png" width="300">
 
 ---
 
@@ -65,7 +63,7 @@ Manage and explore curated map pools used in ranked play:
 - Cards come in rarities:
   - **Base**, **Refined**, **Remarkable**, **Glorious**, **Legendary**, **Timeless**
 
-<!-- Image here: Card UI Example -->
+<img src="src/utils/images/example/F3n1X-RomAI-PlayerCard.png" width="300">
 
 #### 📈 Level System
 - Start at Level 0, 0/50 XP
@@ -114,8 +112,6 @@ $\text{PoolELO} = \left(\text{avgStars} \cdot 0.7 + \text{nm1Stars} \cdot 0.3\ri
 - **Soii** – Created the trading cards and their frontend design + helps with development
 - **Sk8terB0i87** – Designed the ranked tier logos & Timeless rarity
 - **MintLeaf** – Designer of the **RomAI logo**
-
-<!-- Image here: Contributor Avatars or Logos -->
 
 ---
 
