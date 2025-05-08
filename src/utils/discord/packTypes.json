@@ -1,0 +1,86 @@
+[
+    {
+        "name": "Legend",
+        "chances": {
+            "tier1": 100,
+            "tier2": 0,
+            "tier3": 0,
+            "tier4": 0
+        },
+        "rewardLevel": {
+            "start": 0,
+            "end": 0
+        },
+        "cost": 15000
+    },
+    {
+        "name": "Starter",
+        "chances": {
+            "tier1": 3,
+            "tier2": 20,
+            "tier3": 40,
+            "tier4": 80
+        },
+        "rewardLevel": {
+            "start": 1,
+            "end": 4
+        },
+        "cost": 450
+    },
+    {
+        "name": "Intermediate",
+        "chances": {
+            "tier1": 6,
+            "tier2": 30,
+            "tier3": 50,
+            "tier4": 80
+        },
+        "rewardLevel": {
+            "start": 5,
+            "end": 9
+        },
+        "cost": 800
+    },
+    {
+        "name": "Contender",
+        "chances": {
+            "tier1": 9,
+            "tier2": 40,
+            "tier3": 60,
+            "tier4": 90
+        },
+        "rewardLevel": {
+            "start": 10,
+            "end": 14
+        },
+        "cost": 950
+    },
+    {
+        "name": "Pro",
+        "chances": {
+            "tier1": 12,
+            "tier2": 40,
+            "tier3": 75,
+            "tier4": 90
+        },
+        "rewardLevel": {
+            "start": 15,
+            "end": 0
+        },
+        "cost": 1100
+    },
+    {
+        "name": "Champion",
+        "chances": {
+            "tier1": 50,
+            "tier2": 100,
+            "tier3": 0,
+            "tier4": 0
+        },
+        "rewardLevel": {
+            "start": 0,
+            "end": 0
+        },
+        "cost": 3750
+    }
+]

@@ -1,0 +1,62 @@
+{
+    "blue": {
+        "lightColor": "#87c5ff",
+        "midtoneColor": "#4d7193",
+        "darkColor": "#194f81",
+        "card": "./src/utils/images/card-blue.png",
+        "region": "./src/utils/images/region-blue.png",
+        "elo": "./src/utils/images/elo/elo-base-blue.png",
+        "eloBg": "./src/utils/images/elo/elo-bg-blue.png",
+        "eloTitle": "./src/utils/images/elo/elo-title-blue.png"
+    },
+    "green": {
+        "lightColor": "#87ffa5",
+        "midtoneColor": "#4d935e",
+        "darkColor": "#198133",
+        "card": "./src/utils/images/card-green.png",
+        "region": "./src/utils/images/region-green.png",
+        "elo": "./src/utils/images/elo/elo-base-green.png",
+        "eloBg": "./src/utils/images/elo/elo-bg-green.png",
+        "eloTitle": "./src/utils/images/elo/elo-title-green.png"
+    },
+    "orange": {
+        "lightColor": "#ffd187",
+        "midtoneColor": "#93784d",
+        "darkColor": "#815919",
+        "card": "./src/utils/images/card-orange.png",
+        "region": "./src/utils/images/region-orange.png",
+        "elo": "./src/utils/images/elo/elo-base-orange.png",
+        "eloBg": "./src/utils/images/elo/elo-bg-orange.png",
+        "eloTitle": "./src/utils/images/elo/elo-title-orange.png"
+    },
+    "purple": {
+        "lightColor": "#c387ff",
+        "midtoneColor": "#704d93",
+        "darkColor": "#4d1981",
+        "card": "./src/utils/images/card-purple.png",
+        "region": "./src/utils/images/region-purple.png",
+        "elo": "./src/utils/images/elo/elo-base-purple.png",
+        "eloBg": "./src/utils/images/elo/elo-bg-purple.png",
+        "eloTitle": "./src/utils/images/elo/elo-title-purple.png"
+    },
+    "red": {
+        "lightColor": "#ff8787",
+        "midtoneColor": "#934d4d",
+        "darkColor": "#811919",
+        "card": "./src/utils/images/card-red.png",
+        "region": "./src/utils/images/region-red.png",
+        "elo": "./src/utils/images/elo/elo-base-red.png",
+        "eloBg": "./src/utils/images/elo/elo-bg-red.png",
+        "eloTitle": "./src/utils/images/elo/elo-title-red.png"
+    },
+    "white": {
+        "lightColor": "#f0f0f0",
+        "midtoneColor": "#676767",
+        "darkColor": "#252121",
+        "card": "./src/utils/images/card-white.png",
+        "region": "./src/utils/images/region-white.png",
+        "elo": "./src/utils/images/elo/elo-base-white.png",
+        "eloBg": "./src/utils/images/elo/elo-bg-white.png",
+        "eloTitle": "./src/utils/images/elo/elo-title-white.png"
+    }
+}
