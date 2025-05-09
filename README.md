@@ -24,9 +24,9 @@ RomAI is a feature-rich **osu! / Discord bot** that combines classic stat tracki
 - `/matchmaking` – Queue for **1v1 or 2v2 ranked** matches
   - Bo7 or Bo9 on ELO (1700+)
   - Map pool chosen from 6 ELO-balanced pools
-- `/duel` – Challenge someone to a **custom 1v1 ranked match**
-- `/duos` – Create a **2v2 custom ranked match** with friends
-- `/trios` – Create a **3v3 custom match** *(custom pool only)*
+- `/duel` – Challenge someone to a **custom 1v1 ranked match** (custom BO optional)
+- `/duos` – Create a **2v2 custom ranked match** with friends (custom BO optional)
+- `/trios` – Create a **3v3 custom match** *(custom pool only)* (custom BO optional)
 - `/serverleaderboard` - View the leaderboards of the current server (or `/globalleaderboard` for global leaderboards)
 
 #### 🥇 Ranked Tiers
