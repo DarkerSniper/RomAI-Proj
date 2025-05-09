@@ -35,7 +35,7 @@ Ranks from lowest to highest:
 Candidate I–IV → Silver I–III → Gold I–III → Platinum I–III → Diamond I–III → Atomos I–III → Cosmic I–III → Quantum
 ```
 
-<img src="src/utils/images/example/rankedTiers.jpg" width="350">
+<img src="src/utils/images/example/rankedTiers.jpg" width="700">
 
 ---
 
