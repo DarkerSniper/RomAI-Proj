@@ -82,7 +82,7 @@ module.exports = {
             const gameMode = teams ? (teams.teamA.length == 3 ? '3v3' : '2v2') : '1v1';
             const mode = parseInt(gameMode.charAt(0));
 
-            const scoreToWin = !customBO ? DEFAULT_SCORE_TO_WIN : (customBO / 2) + 0.5;
+            var scoreToWin = !customBO ? DEFAULT_SCORE_TO_WIN : (customBO / 2) + 0.5;
 
             var playerArray = teams ? teams.teamA.concat(teams.teamB) : [osuUser1, osuUser2];
             console.log(`Players in this lobby:\n${playerArray}`);
@@ -94,8 +94,6 @@ module.exports = {
 
             // High ELO matches logic & Match limitation
             let eloAvg = 0;
-
-            const bestOf = scoreToWin * 2 - 1;
 
             for (let i=0; i<playerArray.length; i++) {
                 let playerProfile = await osuUser.findOne({ osuUserName: playerArray[i] });
@@ -139,10 +137,12 @@ module.exports = {
 
             // Initiate high ELO ranked
             if (eloAvg >= HIGH_ELO_MATCHES) {
-                if (!Array.isArray(interaction)) {
+                if (Array.isArray(interaction)) {
                     scoreToWin = HIGH_ELO_SCORE_TO_WIN;
                 }
             }
+
+            const bestOf = scoreToWin * 2 - 1;
 
             let interactions = !Array.isArray(interaction) ? [interaction] : interaction;
 
@@ -1162,13 +1162,31 @@ module.exports = {
                     elo1 /= mode;
                     elo2 /= mode;
 
-                    let rank1 = await getPlayerRank(undefined, gameMode, Math.round(elo1));
-                    let rank2 = await getPlayerRank(undefined, gameMode, Math.round(elo2));
+                    elo1 = Math.round(elo1);
+                    elo2 = Math.round(elo2);
+
+                    let rank1 = await getPlayerRank(undefined, gameMode, elo1);
+                    let rank2 = await getPlayerRank(undefined, gameMode, elo2);
 
                     rank1 = `${eloRankAsEmojis(rank1)} ${rank1}`;
                     rank2 = `${eloRankAsEmojis(rank2)} ${rank2}`;
 
-                    return `${tourneyString}Map Pool: ${match.pool.name}\n${bold(firstPick)} - ${rank1} ${italic(`(${elo1})`)} | ${bold(secondPick)} - ${rank2} ${italic(`(${elo2})`)}\n${hyperlink('MP Link', lobby.getHistoryUrl())}\n\nScore: ${bold(`${firstPick}`)} | ${score1} - ${score2} | ${bold(`${secondPick}`)} ${boString}`;
+                    let teamInfo = '';
+
+                    if (gameMode != '1v1') {
+                        let players1 = firstPick == captain1 ? playerArray.slice(0, mode) : playerArray.slice(-mode);
+                        let players2 = firstPick == captain1 ? playerArray.slice(-mode) : playerArray.slice(0, mode);
+
+                        players1 = players1.join(' & ');
+                        players2 = players2.join(' & ');
+
+                        teamInfo = `\n${team1}\n${players1}\nvs\n${players2}\n${team2}\n`;
+                    } else {
+                        team1 = firstPick;
+                        team2 = secondPick;
+                    }
+
+                    return `${tourneyString}Map Pool: ${match.pool.name}\n${bold(team1)} - ${rank1} ${italic(`(${elo1})`)} | ${bold(team2)} - ${rank2} ${italic(`(${elo2})`)}\n${hyperlink('MP Link', lobby.getHistoryUrl())}\n${teamInfo}\nScore: ${bold(`${team1}`)} | ${score1} - ${score2} | ${bold(`${team2}`)} ${boString}`;
                 }
 
                 let live;
