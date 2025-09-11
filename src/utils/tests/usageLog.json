@@ -1,0 +1,96 @@
+{
+  "monthly": [],
+  "daily": [
+    {
+      "date": "17/4/2025",
+      "matchesPlayed": [],
+      "commandsUsed": [
+        {
+          "command": "matchrating",
+          "useCount": 1
+        },
+        {
+          "command": "matchrating",
+          "useCount": 1
+        },
+        {
+          "command": "matchrating",
+          "useCount": 1
+        },
+        {
+          "command": "matchrating",
+          "useCount": 1
+        }
+      ],
+      "newUsers": 0
+    },
+    {
+      "date": "17/4/2025",
+      "matchesPlayed": [],
+      "commandsUsed": [
+        {
+          "command": "matchrating",
+          "useCount": 1
+        }
+      ],
+      "newUsers": 0
+    },
+    {
+      "date": "17/4/2025",
+      "matchesPlayed": [],
+      "commandsUsed": [
+        {
+          "command": "matchrating",
+          "useCount": 1
+        },
+        {
+          "command": "matchrating",
+          "useCount": 1
+        }
+      ],
+      "newUsers": 0
+    },
+    {
+      "date": "17/4/2025",
+      "matchesPlayed": [],
+      "commandsUsed": [
+        {
+          "command": "matchrating",
+          "useCount": 1
+        },
+        {
+          "command": "matchrating",
+          "useCount": 1
+        },
+        {
+          "command": "matchrating",
+          "useCount": 1
+        }
+      ],
+      "newUsers": 0
+    },
+    {
+      "date": "17/4/2025",
+      "matchesPlayed": [],
+      "commandsUsed": [
+        {
+          "command": "matchrating",
+          "useCount": 1
+        },
+        {
+          "command": "matchrating",
+          "useCount": 1
+        },
+        {
+          "command": "matchrating",
+          "useCount": 1
+        },
+        {
+          "command": "matchrating",
+          "useCount": 1
+        }
+      ],
+      "newUsers": 0
+    }
+  ]
+}

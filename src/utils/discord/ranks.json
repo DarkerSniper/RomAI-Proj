@@ -1,0 +1,42 @@
+[
+    {
+        "rank": "Quantum",
+        "eloRange": [2000],
+        "icon": ["./src/utils/images/rank-icons/Quantum.png"]
+    },
+    {
+        "rank": "Cosmic",
+        "eloRange": [1900, 1933, 1966],
+        "icon": ["./src/utils/images/rank-icons/Cosmic1.png", "./src/utils/images/rank-icons/Cosmic2.png","./src/utils/images/rank-icons/Cosmic3.png"]
+    },
+    {
+        "rank": "Atomos",
+        "eloRange": [1800, 1833, 1866],
+        "icon": ["./src/utils/images/rank-icons/Atomos1.png", "./src/utils/images/rank-icons/Atomos2.png","./src/utils/images/rank-icons/Atomos3.png"]
+    },
+    {
+        "rank": "Diamond",
+        "eloRange": [1700, 1733, 1766],
+        "icon": ["./src/utils/images/rank-icons/Diamond1.png", "./src/utils/images/rank-icons/Diamond2.png","./src/utils/images/rank-icons/Diamond3.png"]
+    },
+    {
+        "rank": "Platinum",
+        "eloRange": [1600, 1633, 1666],
+        "icon": ["./src/utils/images/rank-icons/Platinum1.png", "./src/utils/images/rank-icons/Platinum2.png","./src/utils/images/rank-icons/Platinum3.png"]
+    },
+    {
+        "rank": "Gold",
+        "eloRange": [1500, 1533, 1566],
+        "icon": ["./src/utils/images/rank-icons/Gold1.png", "./src/utils/images/rank-icons/Gold2.png","./src/utils/images/rank-icons/Gold3.png"]
+    },
+    {
+        "rank": "Silver",
+        "eloRange": [1400, 1433, 1466],
+        "icon": ["./src/utils/images/rank-icons/Silver1.png", "./src/utils/images/rank-icons/Silver2.png","./src/utils/images/rank-icons/Silver3.png"]
+    },
+    {
+        "rank": "Candidate",
+        "eloRange": [1200, 1250, 1300, 1350],
+        "icon": ["./src/utils/images/rank-icons/Candidate1.png", "./src/utils/images/rank-icons/Candidate2.png","./src/utils/images/rank-icons/Candidate3.png", "./src/utils/images/rank-icons/Candidate4.png"]
+    }
+]

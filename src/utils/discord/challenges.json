@@ -1,0 +1,102 @@
+[
+    {
+        "challenge": "Play a [mode] and a [mode] match",
+        "kind": "main",
+        "tasks": [
+            {
+                "name": "Play [mode] match",
+                "completed": false
+            },
+            {
+                "name": "Play [mode] match",
+                "completed": false
+            }
+        ],
+        "xpWorth": 200
+    },
+    {
+        "challenge": "Play a [mod] and a [mod] map",
+        "kind": "main",
+        "tasks": [
+            {
+                "name": "Play [mod] map",
+                "completed": false
+            },
+            {
+                "name": "Play [mod] map",
+                "completed": false
+            }
+        ],
+        "xpWorth": 150
+    },
+    {
+        "challenge": "Win a [mode] match",
+        "kind": "side",
+        "tasks": [
+            {
+                "name": "Win [mode] match",
+                "completed": false
+            }
+        ],
+        "xpWorth": 150
+    },
+    {
+        "challenge": "Play a [mod] map",
+        "kind": "side",
+        "tasks": [
+            {
+                "name": "Play [mod] map",
+                "completed": false
+            }
+        ],
+        "xpWorth": 75
+    },
+    {
+        "challenge": "Win a [mod] map",
+        "kind": "side",
+        "tasks": [
+            {
+                "name": "Win [mod] map",
+                "completed": false
+            }
+        ],
+        "xpWorth": 125
+    },
+    {
+        "challenge": "Play a [mode] match",
+        "kind": "side",
+        "tasks": [
+            {
+                "name": "Play [mode] match",
+                "completed": false
+            }
+        ],
+        "xpWorth": 100
+    },
+    {
+        "challenge": "Play 2 [mode] matches",
+        "kind": "bonus",
+        "tasks": [
+            {
+                "name": "Play [mode] match",
+                "completed": false
+            },
+            {
+                "name": "Play [mode] match",
+                "completed": false
+            }
+        ],
+        "xpWorth": 150
+    },
+    {
+        "challenge": "Win a [mode] match",
+        "kind": "bonus",
+        "tasks": [
+            {
+                "name": "Win [mode] match",
+                "completed": false
+            }
+        ],
+        "xpWorth": 250
+    }
+]

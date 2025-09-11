@@ -1,0 +1,77 @@
+[
+    {
+        "name": "Reach Rank",
+        "tiers": [
+            {
+                "key": 0,
+                "value": "Platinum"
+            },
+            {
+                "key": 1,
+                "value": "Diamond"
+            },
+            {
+                "key": 2,
+                "value": "Atomos"
+            },
+            {
+                "key": 3,
+                "value": "Cosmic"
+            },
+            {
+                "key": 4,
+                "value": "Quantum"
+            }
+        ]
+    },
+    {
+        "name": "Top Player",
+        "tiers": [
+            {
+                "key": 0,
+                "value": "100"
+            },
+            {
+                "key": 1,
+                "value": "50"
+            },
+            {
+                "key": 2,
+                "value": "10"
+            },
+            {
+                "key": 3,
+                "value": "5"
+            },
+            {
+                "key": 4,
+                "value": "1"
+            }
+        ]
+    },
+    {
+        "name": "Total Matches",
+        "tiers": [
+            {
+                "key": 0,
+                "value": "50"
+            },
+            {
+                "key": 1,
+                "value": "100"
+            },
+            {
+                "key": 2,
+                "value": "200"
+            },
+            {
+                "key": 3,
+                "value": "350"
+            },
+            {
+                "key": 4,
+                "value": "500"
+            }
+        ]
+    }
+]
