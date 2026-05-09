@@ -128,11 +128,3 @@ If you enjoy RomAI and want to help support development:
 [![Ko-fi](https://img.shields.io/badge/Donate-Ko--fi-F16061?style=flat-square&logo=ko-fi)](https://ko-fi.com/romdarker)
 
 ---
-
-## 🔒 License & Usage
-
-RomAI is a passion project built with a lot of time and effort from the team.
-Please **do not copy or redistribute any part of this project without permission**.
-If you're interested in contributing or learning from the project, feel free to reach out!
-
----
